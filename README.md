@@ -1,9 +1,9 @@
 # CoachPad
 A CircuitPython macro pad as a thank you to my swim coaches at Colorado School of Mines
 ## Setup
-To create this macro pad for yourself, there is necessary hardware and software.
+To create this macro pad for yourself, below is hardware and software I used. There are alternatives to the case, microcontroller, switches, and even diodes, so feel free to make it yours.
 ### Hardware
-For the hardware I used a Raspberry Pi Pico, 1N4148 diodes, and MX-style switches. To build the case I used an acryllic cutout using CorelDraw for a laser cutter and fastened everything with M2 hex screws, nuts, and washers. Picutures soon of final product and circuit diagram.
+For the hardware I used a Raspberry Pi Pico, 1N4148 diodes, and MX-style switches. To build the case I used the files in the ***case*** directory to laser cut an acryllic sheet into a switch plate and bottom case using CorelDraw. To fasten everything together, I used hot glue to stick the Pico to the bottom case and M2 hex screws, nuts, and washers to hold the switch plate to the bottom case. Picutures soon of final product and circuit diagram.
 ### Software
 This section will contain software and procedure specific to the Raspberry Pi Pico, but any microcontroller that runs CircuitPython should work fine. Note that I have not tested any other microcontroller.
 1. Put the Raspberry Pi Pico into bootloader mode by holding down the BOOTSEL button as the Pico is plugged into the computer.
