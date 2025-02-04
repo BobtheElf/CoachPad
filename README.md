@@ -3,7 +3,11 @@ A CircuitPython macro pad as a thank you to my swim coaches at Colorado School o
 ## Setup
 To create this macro pad for yourself, below is hardware and software I used. There are alternatives to the case, microcontroller, switches, and even diodes, so feel free to make it yours.
 ### Hardware
-For the hardware I used a Raspberry Pi Pico, 1N4148 diodes, and MX-style switches. To build the case I used the files in the ***case*** directory to laser cut an acryllic sheet into a switch plate and bottom case using CorelDraw. To fasten everything together, I used hot glue to stick the Pico to the bottom case and M2 hex screws, nuts, and washers to hold the switch plate to the bottom case. Picutures soon of final product and circuit diagram.
+For the hardware I used a Raspberry Pi Pico, 1N4148 diodes, and MX-style switches. To build the case I used the files in the ***case*** directory to laser cut an acryllic sheet into a switch plate and bottom case using CorelDraw. To fasten everything together, I used hot glue to stick the Pico to the bottom case and M2 hex screws, nuts, and washers to hold the switch plate to the bottom case. Picutures soon of final product and circuit diagram. For the keycaps I used these keycaps shown 
+
+![alt text](https://m.media-amazon.com/images/I/417Ui2Ws5mL._AC_UF894,1000_QL80_.jpg)
+
+
 ### Software
 This section will contain software and procedure specific to the Raspberry Pi Pico, but any microcontroller that runs CircuitPython should work fine. Note that I have not tested any other microcontroller.
 1. Put the Raspberry Pi Pico into bootloader mode by holding down the BOOTSEL button as the Pico is plugged into the computer.
